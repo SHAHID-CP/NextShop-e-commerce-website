@@ -50,8 +50,14 @@ Authentication এর জন্য Google OAuth ব্যবহার করা 
 ##
 ## ⚙️ Setup & Installation (Quick Start)
 
+- git clone https://github.com/SHAHID-CP/NextShop-e-commerce-website.git
+- cd NextShop-e-commerce-website
+- npm install
+1. Environment Variables
+Root ডিরেক্টরিতে .env.local ফাইল তৈরি করে নিচের ভ্যারিয়েবলগুলো বসাও:
 
-### 1. Clone & Install
+
+### 2. setup and run
 
 - NEXTAUTH_SECRET=your_random_secret_key
 - GOOGLE_CLIENT_ID=your_google_client_id
