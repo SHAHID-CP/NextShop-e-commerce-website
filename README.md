@@ -30,24 +30,6 @@ Authentication এর জন্য Google OAuth ব্যবহার করা 
 - **Notifications:** React Hot Toast  
 
 ---
-
-## 📦 Dependencies
-```json
-"dependencies": {
-  "bcryptjs": "^3.0.2",
-  "framer-motion": "^12.23.12",
-  "lucide-react": "^0.540.0",
-  "mongodb": "^6.18.0",
-  "motion": "^12.23.12",
-  "next": "15.5.0",
-  "next-auth": "^4.24.11",
-  "react": "19.1.0",
-  "react-dom": "19.1.0",
-  "react-hot-toast": "^2.6.0",
-  "react-icons": "^5.5.0",
-  "react-responsive-carousel": "^3.2.23"
-}
-
 🧭 Route Summary
 
 / → Landing Page
@@ -89,3 +71,23 @@ DB_PASS=your_dbpass
 
 Developed by [SHAHID]
 📧 Contact: shaahid.045@gmail.com
+
+## 📦 Dependencies
+```json
+"dependencies": {
+  "bcryptjs": "^3.0.2",
+  "framer-motion": "^12.23.12",
+  "lucide-react": "^0.540.0",
+  "mongodb": "^6.18.0",
+  "motion": "^12.23.12",
+  "next": "15.5.0",
+  "next-auth": "^4.24.11",
+  "react": "19.1.0",
+  "react-dom": "19.1.0",
+  "react-hot-toast": "^2.6.0",
+  "react-icons": "^5.5.0",
+  "react-responsive-carousel": "^3.2.23"
+}
+
+
+
