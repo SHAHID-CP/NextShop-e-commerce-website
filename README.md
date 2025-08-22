@@ -5,6 +5,10 @@
 এখানে ইউজাররা public landing page ও product list দেখতে পারে, প্রোডাক্টের বিস্তারিত পেজে যেতে পারে এবং লগইন করার পর protected dashboard থেকে নতুন প্রোডাক্ট যোগ করতে পারে।  
 Authentication এর জন্য Google OAuth ব্যবহার করা হয়েছে।  
 
+
+🌐 Live Demo
+
+🔗 Live Project Link
 ---
 
 ## 🚀 Features
@@ -43,3 +47,45 @@ Authentication এর জন্য Google OAuth ব্যবহার করা 
   "react-icons": "^5.5.0",
   "react-responsive-carousel": "^3.2.23"
 }
+
+🧭 Route Summary
+
+/ → Landing Page
+
+/products → All Products
+
+/products/[id] → Single Product Details
+
+/dashboard → User Dashboard (Protected)
+
+/dashboard/add-product → Add New Product (Protected)
+
+/api/auth/* → NextAuth Authentication Routes
+
+
+## 📂 Project Structure
+
+app/
+├─ layout.tsx → Global Layout (Navbar + Footer)
+├─ page.tsx → Landing Page
+├─ login/page.tsx → Login Page
+├─ products/page.tsx → Product List
+├─ products/[id]/page.tsx → Product Details
+├─ dashboard/add-product/page.tsx → Protected Page (Add Product)
+└─ api/auth/[...nextauth]/route.ts → NextAuth API Route
+
+## 🔑 Environment Variables
+
+Root ডিরেক্টরিতে একটি **.env.local** ফাইল তৈরি করে নিচের ভ্যারিয়েবলগুলো বসাতে হবে:
+
+NEXTAUTH_SECRET=your_random_secret_key
+GOOGLE_CLIENT_ID=your_google_client_id
+GOOGLE_CLIENT_SECRET=your_google_client_secret
+NEXT_PUBLIC_IMGBB_API_KEY=your_imgbb_secret
+DB_USER=your_dbuser
+DB_PASS=your_dbpass
+
+👨‍💻 Author
+
+Developed by [SHAHID]
+📧 Contact: shaahid.045@gmail.com
