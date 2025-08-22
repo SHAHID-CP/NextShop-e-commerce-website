@@ -8,7 +8,7 @@ Authentication এর জন্য Google OAuth ব্যবহার করা 
 
 🌐 Live Demo
 
-🔗 Live Project Link
+🔗 [Visit the Live Website](https://e-commerse-project-ruddy.vercel.app/)
 ---
 
 ## 🚀 Features
@@ -45,6 +45,45 @@ Authentication এর জন্য Google OAuth ব্যবহার করা 
 /api/auth/* → NextAuth Authentication Routes
 
 
+---
 
+##
+## ⚙️ Setup & Installation (Quick Start)
+
+### 1. Clone & Install
+```bash
+git clone https://github.com/SHAHID-CP/NextShop-e-commerce-website.git
+cd NextShop-e-commerce-website
+npm install
+2. Environment Variables
+Root ডিরেক্টরিতে .env.local ফাইল তৈরি করে নিচের ভ্যারিয়েবলগুলো বসাও:
+
+ini
+Copy
+Edit
+NEXTAUTH_SECRET=your_random_secret_key
+GOOGLE_CLIENT_ID=your_google_client_id
+GOOGLE_CLIENT_SECRET=your_google_client_secret
+NEXT_PUBLIC_IMGBB_API_KEY=your_imgbb_secret
+DB_USER=your_dbuser
+DB_PASS=your_dbpass
+DB_NAME=your_dbname
+Google Client ID & Secret নিতে হবে Google Cloud Console থেকে (OAuth credentials তৈরি করে)।
+
+3. Run Locally
+bash
+Copy
+Edit
+npm run dev
+Local server: http://localhost:3000
+
+☁️ Deployment
+Project GitHub এ push করো।
+
+Vercel এ project import করো।
+
+Vercel Dashboard → Project Settings → Environment Variables এ .env.local এর values বসাও।
+
+Deploy বোতাম চাপলেই Live app ready 
 
 
